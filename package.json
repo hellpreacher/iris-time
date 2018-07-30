@@ -7,8 +7,15 @@
         "test": "eslint bin server && nyc mocha --exit --recursive test",
         "start": "node bin/run | bunyan"
     },
-    "author": "",
+    "author": "Siddharth",
     "license": "ISC",
+    "engines": {
+        "node":"8.11.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hellpreacher/iris.git"
+    },
     "dependencies": {
         "bunyan": "^1.8.12",
         "dotenv": "^4.0.0",
